@@ -1,0 +1,99 @@
+:root{
+    --primaryColor: #efefef
+}
+html, .body {
+        height: 100vh;
+        width: 100%;
+    font-family: "poppins", sans-serif;
+    background: var(--primaryColor);
+    font:10px;
+    width: 100%;
+    margin: 0px;
+    padding: 1rem;
+    
+}
+
+.div {
+    display: flex;
+    align-items: center;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name {
+    margin-right: 7rem;
+}
+
+.name .logo {
+    font-size: 3.5rem;
+    color: #1877f2;
+}
+
+.name p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+
+.form-container__input{
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    padding-left: 5%;
+    width: 90%;
+}
+
+
+.form-container {
+    background-color: #fff;
+    padding: 1rem;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 0.45rem;
+    
+}
+
+
+.login {
+    background-color: #0f71f1;
+    border: none;
+    color: #fff;
+    font-size: large;
+    font-weight: bolder;
+    height: 2.5rem;
+    width: 97%;
+    border-radius: 0.4rem;
+}
+
+.forgot_password {
+    text-decoration: none;
+    margin-top: 5rem;
+    color: #1877f2;
+    font: 0.093rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.create-account {
+    background-color:  #347c17;
+    border: none;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 15rem;
+    color: #fff;
+    font-size: large;
+    font-weight: bolder;
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    text-decoration: none;
+}
